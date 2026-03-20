@@ -1,10 +1,15 @@
 import './App.css';
-import CardList from './Components/CardList/CardList';
+import CardList, { CardList1 } from './Components/CardList/CardList';
+import Search from './Components/Search/Search';
 
 function App() {
+      debugger;
   return (
+
     <div className="App">
-       <CardList />
+      <Search />
+      <CardList />
+      <CardList1 />
     </div>
   );
 }
